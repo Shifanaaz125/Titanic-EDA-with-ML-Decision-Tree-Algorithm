@@ -2,15 +2,15 @@
 
 Titanic Machine Learning competition on Kaggle, this competition involves predicting whether passengers on the Titanic survived or not based on various features. Below is a summary of the key steps in the code:
 
-**Import Required Libraries:** Import necessary Python libraries such as pandas, scikit-learn's RandomForestClassifier, LabelEncoder for encoding categorical data, train_test_split for data splitting, and accuracy_score for evaluation.
+1. **Import Required Libraries:** Import necessary Python libraries such as pandas, scikit-learn's RandomForestClassifier, LabelEncoder for encoding categorical data, train_test_split for data splitting, and accuracy_score for evaluation.
 
-**Load the Training and Test Data:** Load the Titanic dataset for training and testing from CSV files. The training data contains information about passengers, including whether they survived, while the test data is used for making predictions.
+2. **Load the Training and Test Data:** Load the Titanic dataset for training and testing from CSV files. The training data contains information about passengers, including whether they survived, while the test data is used for making predictions.
 
-**Combine Data for Encoding:** Combine both the training and test data to ensure consistent encoding of categorical variables. This is important to handle unseen labels in the test data.
+3. **Combine Data for Encoding:** Combine both the training and test data to ensure consistent encoding of categorical variables. This is important to handle unseen labels in the test data.
 
-**Data Preprocessing:** Fill missing values in the 'Age,' 'Embarked,' and 'Fare' columns with appropriate values (e.g., median or mode) to prepare the data for modeling.
+4. **Data Preprocessing:** Fill missing values in the 'Age,' 'Embarked,' and 'Fare' columns with appropriate values (e.g., median or mode) to prepare the data for modeling.
 
-**Encode Categorical Variables:** Use LabelEncoder to transform categorical variables like 'Sex' and 'Embarked' into numerical representations. This allows machine learning algorithms to work with the data.
+5. **Encode Categorical Variables:** Use LabelEncoder to transform categorical variables like 'Sex' and 'Embarked' into numerical representations. This allows machine learning algorithms to work with the data.
 
 **Split Data into Training and Test Sets:** Split the combined data back into training and test sets. This ensures that the model is trained on one portion of the data and tested on another.
 
