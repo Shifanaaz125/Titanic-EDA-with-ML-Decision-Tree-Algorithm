@@ -26,4 +26,4 @@ Titanic Machine Learning competition on Kaggle, this competition involves predic
 
 **Evaluate Model Performance:** Calculate the accuracy of the model on a validation dataset if available. This step helps assess how well the model generalizes to new data.
 
-# In summary, this code demonstrates the complete process of preparing, training, and testing a machine learning model for the Titanic competition on Kaggle. It ensures proper handling of missing values, categorical encoding, and feature selection. The final predictions are saved in a CSV file ready for submission, and the model's performance can be evaluated if desired.
+### In summary, this code demonstrates the complete process of preparing, training, and testing a machine learning model for the Titanic competition on Kaggle. It ensures proper handling of missing values, categorical encoding, and feature selection. The final predictions are saved in a CSV file ready for submission, and the model's performance can be evaluated if desired.
