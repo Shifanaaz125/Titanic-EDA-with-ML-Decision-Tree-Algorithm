@@ -12,18 +12,18 @@ Titanic Machine Learning competition on Kaggle, this competition involves predic
 
 5. **Encode Categorical Variables:** Use LabelEncoder to transform categorical variables like 'Sex' and 'Embarked' into numerical representations. This allows machine learning algorithms to work with the data.
 
-**Split Data into Training and Test Sets:** Split the combined data back into training and test sets. This ensures that the model is trained on one portion of the data and tested on another.
+6. **Split Data into Training and Test Sets:** Split the combined data back into training and test sets. This ensures that the model is trained on one portion of the data and tested on another.
 
-**Select Relevant Features:** Define a list of relevant features that will be used for training and prediction. These features are selected based on their potential significance in predicting survival.
+7. **Select Relevant Features:** Define a list of relevant features that will be used for training and prediction. These features are selected based on their potential significance in predicting survival.
 
-**Create and Train the Model:** Create a Random Forest Classifier, a popular machine learning algorithm, and train it using the training data. The model learns patterns in the data to make predictions.
+8. **Create and Train the Model:** Create a Random Forest Classifier, a popular machine learning algorithm, and train it using the training data. The model learns patterns in the data to make predictions.
 
-**Select Features for Test Data:** Select the same relevant features for the test data to ensure consistency with the training data.
+9. **Select Features for Test Data:** Select the same relevant features for the test data to ensure consistency with the training data.
 
-**Make Predictions:** Use the trained model to make predictions on the test data, which contains passenger information without survival labels.
+10. **Make Predictions:** Use the trained model to make predictions on the test data, which contains passenger information without survival labels.
 
-**Create a Submission File:** Generate a submission file that includes passenger IDs and predicted survival outcomes. This file can be submitted to the Kaggle competition for evaluation.
+11. **Create a Submission File:** Generate a submission file that includes passenger IDs and predicted survival outcomes. This file can be submitted to the Kaggle competition for evaluation.
 
-**Evaluate Model Performance:** Calculate the accuracy of the model on a validation dataset if available. This step helps assess how well the model generalizes to new data.
+12. **Evaluate Model Performance:** Calculate the accuracy of the model on a validation dataset if available. This step helps assess how well the model generalizes to new data.
 
 ### In summary, this code demonstrates the complete process of preparing, training, and testing a machine learning model for the Titanic competition on Kaggle. It ensures proper handling of missing values, categorical encoding, and feature selection. The final predictions are saved in a CSV file ready for submission, and the model's performance can be evaluated if desired.
